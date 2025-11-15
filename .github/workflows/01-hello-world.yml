@@ -12,11 +12,10 @@ jobs:
         run: echo  "Bonjour depuis Github actions ! "
 
       - name: Informations système
-        run: 
+        run: |
           echo "Système d'exploitation : $(uname -s)"
           echo "version : $(uname -r)"
           echo "Utilisateur : $(whoami)"
 
       - name: Date et heure
-        run: 
-          date
+        run: date
